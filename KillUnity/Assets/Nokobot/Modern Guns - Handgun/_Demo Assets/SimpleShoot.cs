@@ -29,6 +29,10 @@ public class SimpleShoot : MonoBehaviour
         if (gunAnimator == null)
             gunAnimator = GetComponentInChildren<Animator>();
     }
+    public void PullTheTrigger()
+    {
+    }
+
 
     void Update()
     {
